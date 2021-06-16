@@ -1,0 +1,355 @@
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: orange;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+#nav-logo
+{
+    height: 3rem;
+}
+img
+{
+    height: 25rem;
+}
+
+.link
+{
+
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    
+
+}
+.link:hover
+{
+    color: orange;
+}
+
+.navv
+{
+    padding-top: 20px;
+}
+.links{
+    display: inline-block;
+   
+}
+
+.nav-icon
+{
+    display: none;
+}
+sup
+{
+  
+    font-size: 15px;
+    font-weight:bold;
+    border-radius: 60%;   
+    padding: 3px;
+    color: orange;
+
+}
+#id
+{
+    display: flex;
+    float: right;
+}
+#secImg
+{
+    
+    padding:0px 0px 0px 11px;
+}
+
+
+@media(max-width:991px)
+{
+
+    #secImg
+    {
+        padding: 0px;
+    }
+    header
+    {
+        margin-bottom: 5px;
+    }
+    #searchbar
+    {
+       
+    }
+    #nav-item.show
+    {
+      display:block;
+     
+   
+      width: 100%;
+  
+    }
+
+    #navbar,.navbar
+    {
+      margin-top: 0px;
+      padding-top: 0px;  
+    }
+    .nav-icon
+    {
+       display:initial;
+        float: right;
+        margin-right: 15px;
+        margin-top: 5px;
+
+        font-size: 2rem;
+    }
+
+    .links
+    {
+        display: block;
+        text-align: center
+    }
+
+    #nav-item{
+    display: none;
+         }
+
+         #searchbar
+         {
+         padding: 10px 0px 10px 0px;
+         margin: 0px;
+             
+         }
+         
+
+}
+
+li
+{ 
+ 
+    list-style-type: none;
+    color: black;
+}
+
+
+    #drop-item
+    {
+        display: none;
+        width: 100%;
+         background-color:white;
+        padding-bottom: 12px;
+        
+    }
+    #drop-item.show
+    {
+        display:block;
+    }
+  
+
+#drop
+{
+  float: right;
+    padding: 4px;
+    
+}
+
+#a
+{
+    padding: 3px;
+ 
+   
+}
+.sec-head
+{
+    text-align: center;
+}
+.li
+{
+    display: inline-block;
+}
+#card:hover .svg-image
+{
+    -webkit-box-shadow: 0px 2px 18px rgba(34, 33, 33, 0.192);
+    
+    cursor: pointer;
+    display: initial;
+}
+#card{
+    border: none;
+}
+
+
+
+.item-name
+{
+    color: rgba(0, 0, 0, 0.473);
+}
+#card-text
+{
+    font-weight: bolder;
+    color: orange;
+}
+#shopnow:hover
+{
+    background-color: white;
+    color:orange;
+}
+
+#bgimg
+{
+    padding: left 50px;
+}
+.svg-image
+{
+    padding: 5px; 
+    margin: 5px;
+    border-radius: 50px;
+    background-color:whitesmoke;
+    color:orange; 
+    width:2rem; 
+    height:2rem;
+    display: none;
+    transition: 0.5s;
+
+}
+.svg-image:hover
+{
+    background-color:orange;
+    color:whitesmoke;
+    transform: rotate(360deg);
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+}
+
+.lii
+{
+    padding-top: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-image 
+{
+    padding: 10px; 
+    margin: 0px;
+    border-radius: 50px;
+    background-color:rgb(255, 255, 255);
+    color: orange;
+     
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.footer-image:hover
+{
+    background-color: orange;
+    color: rgb(255, 255, 255);
+}
+
+.phone_icon
+{
+    padding: 5px; 
+    margin: 10px 10px 0px 0px;
+    border-radius: 50px;
+    background-color: rgb(214, 214, 214);
+    color: orange;
+     
+    width: 2rem;
+    height: 2rem;  
+}
+.phone_icon:hover
+{
+    background-color: orange ;
+    color:rgb(214, 214, 214);
+}
+h6
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p
+{
+    font-size: 14px;
+    margin: 0px 0px 30px;
+}
+
+#card2
+{
+   
+    border: none;
+    border-radius: none;
+    margin: 10px;
+
+}
+
+#footerLogo
+{
+    
+    height: 23px;
+    width: 263px;
+}
+.ftbtn
+{
+
+    border: none;
+    background-color: rgb(255, 180, 42);
+    padding: 4px;
+    font-weight: bolder; 
+    color: whitesmoke; 
+    border-radius: 5px;
+}
+.ftbtn:hover
+{
+    color: whitesmoke;
+    padding: 8px;
+}
+
+#blog h1
+{
+    text-transform: capitalize;
+    
+} 
+
+#blog hr
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 5px;
+    width: 40%;
+
+}
+
+#hr hr
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 5px;
+    width: 20%;
+
+}
+
+
+
+
+#caro_text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5%;   
+}
+
+
